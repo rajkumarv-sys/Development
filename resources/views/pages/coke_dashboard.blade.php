@@ -5,7 +5,7 @@
 <!-- <link href="{{ asset('css/buttons.dataTables.min.css') }}" rel="stylesheet" /> -->
 <link href="https://cdn.datatables.net/fixedcolumns/3.3.3/css/fixedColumns.dataTables.min.css" rel="stylesheet" />
 
-<!------ Include the above in your HEAD tag ---------->
+<!------ Include the above in your HEAD tag rah ---------->
 
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -13,7 +13,7 @@
 
 @endpush
 
-@section('content')
+@section('content') 
 <style>
     .radio-group {
     display: flex;
@@ -22,7 +22,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;   /* allows scroll if screen is too small */
     padding-bottom: 2px;
-    margin-left:12px;
+    margin-left:15px;
 }
 
 .radio-group::-webkit-scrollbar {
