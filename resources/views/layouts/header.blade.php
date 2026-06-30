@@ -1558,7 +1558,7 @@ if($clientid==133 && Auth::user()->login_type_mdlz == 'Rural/Urban')
 @php
     }
 @endphp -->
-    <li><a class="nav-link show_case_result" id="12" type="1,2,5" href="#">GTM – Rural Expansion</a></li>
+    <li><a class="nav-link show_case_result" id="12" type="1,2,5" href="#">GTM – Rural Expansion -update</a></li>
     <li><a class="nav-link show_case_result" id="12" type="1,2,5,30" href="#">Merge with Existing DBR</a></li>
     <li><a class="nav-link show_case_result" id="12" type="1,2,5,31" href="#">New DBR</a></li>
     <li><a class="nav-link show_case_result" id="12" type="1,2,5,32" href="#">New Sub DBR</a></li>
