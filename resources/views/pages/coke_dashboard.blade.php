@@ -9645,7 +9645,7 @@ function style(feature) {
                     if (filter_dist.length > 3) {
                         alert("Please select a maximum of 3 districts.");
 
-                        // optional: uncheck last selected welcome
+                        // optional: uncheck last selected
                         $("input[name='districtlist']:checked").last().prop("checked", false);
 
                         return false;
