@@ -9641,11 +9641,11 @@ function style(feature) {
                         filter_dist.push($(this).val());
                     });
 
-                    // 🔴 सही जगह पर check
+                    // 🔴 सही जगह पर check 
                     if (filter_dist.length > 3) {
                         alert("Please select a maximum of 3 districts.");
 
-                        // optional: uncheck last selected
+                        // optional: uncheck last selected welcome
                         $("input[name='districtlist']:checked").last().prop("checked", false);
 
                         return false;

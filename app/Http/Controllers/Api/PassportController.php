@@ -440,7 +440,7 @@ public function login()
             'message' => 'Authentication Successful',
             'data' => [
                 'id'              => $user->id,
-                'firstname'       => $user->firstname,
+                'firstname'       => ucfirst($user->firstname),
                 'email'           => $user->email,
                 'client_id'       => $user->client_id,
                 'role'            => $user->role,
